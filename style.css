@@ -1,0 +1,120 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-color: lightgrey;
+}
+
+.topnav {
+  background: #ffe9ec;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  text-transform: uppercase;
+  font-size: 17px;
+  
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.topnav:after{
+  content:'';
+  clear: both;
+  display: block;
+}
+
+.topnav ul{
+  list-style: none;
+  margin: 0;
+  
+}
+
+.topnav > ul > li{
+  float: left;
+  position: relative;
+  
+}
+
+.topnav ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 15px 20px;
+  display: block;
+  
+}
+
+.topnav ul ul{
+  position: absolute;
+  padding: 0;
+  min-width: 125px;
+  display: none;
+  top: 100%;
+  left: 0;
+  background: white;
+}
+
+.topnav ul li:hover > ul{
+  display: block;
+  
+}
+
+.topnav ul ul li:hover a{
+  background: darkblue;
+  color: white;
+}
+
+.par{
+  position: right;
+  background: white;
+  width: 300px;
+  height: 400px;
+  font-size: 25px;
+  margin: auto;
+  padding: 10px;
+}
+
+.photo_id{
+  margin: 15px;
+  width: 200px;
+  height: 300px;
+  border-radius: 50%;
+  position: relative;
+  left: 100px;
+}
+
+.aboutme{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+.hosa{
+  position: relative;
+  margin: 80px;
+  width: 300px;
+  height:300px;
+  padding:30px;
+  bottom: -250px;
+  
+}
+
+.slider-frame{
+  overflow: hidden;
+  height: 900px;
+  width: 1200px;
+  margin-left: 360px;
+  margin-top: 20px;
+  position: relative;
+  /*left: 700px;*/
+  /*top: 400px;*/
+}
+
+
